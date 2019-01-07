@@ -2,17 +2,24 @@
 // VARIABLES ---------------------------------------------------------
  $blue: #AED8E5;
  $white: #F8F9FA;
+ $orange: #FDD9AE;
+ $pink: #DA9685;
+ $brown: #E2D0BE;
+ $title: 'Comfortaa', cursive;
 
-// CODE --------------------------------------------------------------
+ // -----------------------------------------------------------------------
 
 body {
   background-color: $blue;
 }
 
 #container {
-  max-width: 80%;
+  max-width: 75%;
   margin: auto;
+  margin-top: 30px;
 }
+
+// NAVIGATION --------------------------------------------------------------
 
 .col-md-6 {
   background-color: $white;
@@ -20,7 +27,7 @@ body {
   text-align: center;
 
   h1 {
-    font-family: 'Comfortaa', cursive;
+    font-family: $title;
     font-weight: 700;
   }
 }
@@ -50,7 +57,46 @@ li {
   padding-left: 12px;
 }
 
-span {
-  font-family: 'Comfortaa', cursive;
-  font-weight: 700;
+// JUMBOTRON --------------------------------------------------------------
+
+
+.jumbotron {
+  background-color: $white;
+  padding: 20px;
+
+  h1 {
+    font-family: $title;
+  }
+
+  .lead {
+    a {
+      background-color: $white;
+      border: solid 2px $pink;
+      color: $pink;
+
+      &:hover {
+        color: $white;
+        background-color: $pink;
+        transition-timing-function: ease-in;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+// CARDS --------------------------------------------------------------
+
+.card-deck {
+  margin-bottom: 20px;
+  font-family: $title;
+  a {
+    color: $pink;
+    &:hover {
+      color: $blue;
+      transition-timing-function: ease-in;
+      transition: 0.5s;
+      text-decoration: none;
+      font-size: 1.02em;
+    }
+  }
 }

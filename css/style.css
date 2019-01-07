@@ -2,15 +2,16 @@ body {
   background-color: #AED8E5; }
 
 #container {
-  max-width: 80%;
-  margin: auto; }
+  max-width: 75%;
+  margin: auto;
+  margin-top: 30px; }
 
 .col-md-6 {
   background-color: #F8F9FA;
   margin-top: 50px;
   text-align: center; }
   .col-md-6 h1 {
-    font-family: 'Comfortaa', cursive;
+    font-family: "Comfortaa", cursive;
     font-weight: 700; }
 
 .navbar-brand {
@@ -41,6 +42,37 @@ input {
 li {
   padding-left: 12px; }
 
-span {
-  font-family: 'Comfortaa', cursive;
-  font-weight: 700; }
+.jumbotron {
+  background-color: #F8F9FA;
+  padding: 20px; }
+  .jumbotron h1 {
+    font-family: "Comfortaa", cursive; }
+  .jumbotron .lead a {
+    background-color: #F8F9FA;
+    border: solid 2px #DA9685;
+    color: #DA9685; }
+    .jumbotron .lead a:hover {
+      color: #F8F9FA;
+      background-color: #DA9685;
+      -webkit-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s; }
+
+.card-deck {
+  margin-bottom: 20px;
+  font-family: "Comfortaa", cursive; }
+  .card-deck a {
+    color: #DA9685; }
+    .card-deck a:hover {
+      color: #AED8E5;
+      -webkit-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+      text-decoration: none;
+      font-size: 1.02em; }
