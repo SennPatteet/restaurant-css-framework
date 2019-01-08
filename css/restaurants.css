@@ -1,65 +1,51 @@
 body {
-  background-color: #AED8E5;
-  width: 100%;
-  overflow-x: hidden; }
+  background-color: #AED8E5; }
 
 #container {
-  max-width: 55%;
+  max-width: 75%;
   margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-top: 30px; }
 
-header .col-md-6 {
+.col-md-6 {
   background-color: #F8F9FA;
-  margin-top: 50px;
   text-align: center; }
-  header .col-md-6 h1 {
+  .col-md-6 h1 {
     font-family: "Comfortaa", cursive;
     font-weight: 700; }
 
-header .navbar-brand {
+.navbar-brand {
   margin-right: 29px; }
 
-header img {
+img {
   padding-bottom: 15px; }
 
-header i {
+i {
   padding: 0px 8px 0px 0px; }
 
-header input {
+input {
   outline-color: #AED8E5;
   font-size: 15px; }
 
-header ::-webkit-input-placeholder {
+::-webkit-input-placeholder {
   opacity: 0.3; }
 
-header :-ms-input-placeholder {
+:-ms-input-placeholder {
   opacity: 0.3; }
 
-header ::-ms-input-placeholder {
+::-ms-input-placeholder {
   opacity: 0.3; }
 
-header ::placeholder {
+::placeholder {
   opacity: 0.3; }
 
-header li {
+li {
   padding-left: 12px; }
 
-.list {
-  padding-top: 50px; }
-  .list .list-group-item {
-    background-color: #F8F9FA; }
-  .list h4 {
-    color: #DA9685;
-    font-family: "Comfortaa", cursive;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 100px;
-    padding-bottom: 20px; }
+.mapke {
+  padding: 10px 10px 40px 10px; }
 
 footer {
-  background-color: #F8F9FA;
-  margin-top: 200px; }
+  background-color: #F8F9FA; }
   footer a {
     color: #DA9685; }
     footer a:hover {

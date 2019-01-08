@@ -4,12 +4,12 @@ body {
 #container {
   max-width: 75%;
   margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-top: 100px;
+  margin-bottom: 100px; }
 
 .form-area {
   background-color: #F8F9FA;
-  padding: 10px 40px 60px;
+  padding: 10px 40px 40px;
   max-width: 100%;
   margin: auto; }
   .form-area i {
@@ -72,3 +72,23 @@ input {
 
 li {
   padding-left: 12px; }
+
+footer {
+  background-color: #F8F9FA; }
+  footer a {
+    color: #DA9685; }
+    footer a:hover {
+      color: #AED8E5;
+      -webkit-transition-timing-function: ease-in;
+      -o-transition-timing-function: ease-in;
+      transition-timing-function: ease-in;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+      text-decoration: none; }
+  footer .col-md-12 {
+    text-align: center; }
+  footer .col-12 {
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    font-family: "Comfortaa", cursive; }

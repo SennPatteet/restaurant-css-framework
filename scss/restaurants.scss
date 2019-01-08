@@ -5,30 +5,23 @@
  $pink: #DA9685;
  $brown: #E2D0BE;
  $title: 'Comfortaa', cursive;
+
  // -----------------------------------------------------------------------
 
- body {
-   background-color: $blue;
-   width: 100%;
-   overflow-x: hidden;
- }
+body {
+  background-color: $blue;
+}
 
+#container {
+  max-width: 75%;
+  margin: auto;
+  margin-top: 30px;
+}
 
-
- #container {
-   max-width: 55%;
-   margin: auto;
-   margin-top: 30px;
-   margin-bottom: 30px;
- }
-
-// NAVIGATION ---------------------------------------------------------
-
-header {
+// NAVIGATION --------------------------------------------------------------
 
 .col-md-6 {
   background-color: $white;
-  margin-top: 50px;
   text-align: center;
 
   h1 {
@@ -61,33 +54,19 @@ input {
 li {
   padding-left: 12px;
 }
+
+// MAP ---------------------------------------------------------
+
+.mapke {
+  padding: 10px 10px 40px 10px;
 }
 
-// MENU ---------------------------------------------------------
 
-.list {
-
-  padding-top: 50px;
-
-  .list-group-item {
-    background-color: $white;
-  }
-
-  h4 {
-    color: $pink;
-    font-family: $title;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 100px;
-    padding-bottom: 20px;
-  }
-}
 
 // FOOTER ---------------------------------------------------------
 
 footer {
   background-color: $white;
-  margin-top: 200px;
   a {
     color: $pink;
     &:hover {
