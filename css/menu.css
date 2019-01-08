@@ -1,0 +1,65 @@
+body {
+  background-color: #AED8E5; }
+
+#container {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+header .col-md-6 {
+  background-color: #F8F9FA;
+  margin-top: 50px;
+  text-align: center; }
+  header .col-md-6 h1 {
+    font-family: "Comfortaa", cursive;
+    font-weight: 700; }
+
+header .navbar-brand {
+  margin-right: 29px; }
+
+header img {
+  padding-bottom: 15px; }
+
+header i {
+  padding: 0px 8px 0px 0px; }
+
+header input {
+  outline-color: #AED8E5;
+  font-size: 15px; }
+
+header ::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+header :-ms-input-placeholder {
+  opacity: 0.3; }
+
+header ::-ms-input-placeholder {
+  opacity: 0.3; }
+
+header ::placeholder {
+  opacity: 0.3; }
+
+header li {
+  padding-left: 12px; }
+
+.list h4 {
+  margin-top: 100px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  color: #DA9685;
+  text-align: center;
+  margin-bottom: 30px; }
+
+.list ul {
+  list-style: none; }
+  .list ul li {
+    line-height: 2.5; }
+
+.list .col-2 {
+  text-align: right; }
+
+.list .list-group-item {
+  background-color: #AED8E5;
+  padding-bottom: 2px;
+  border: none; }

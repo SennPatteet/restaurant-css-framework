@@ -1,4 +1,3 @@
-
 // VARIABLES ---------------------------------------------------------
  $blue: #AED8E5;
  $white: #F8F9FA;
@@ -97,6 +96,23 @@ li {
       transition: 0.5s;
       text-decoration: none;
       font-size: 1.02em;
+    }
+  }
+
+  .card-text {
+    font-size: 0.8em;
+  }
+}
+
+// FOOTER --------------------------------------------------------------
+
+footer {
+  background-color: $white;
+  padding: 20px 0px 20px 0px;
+  ul {
+    list-style: none;
+    i {
+      font-size: 1.5em;
     }
   }
 }

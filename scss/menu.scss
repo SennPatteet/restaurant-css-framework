@@ -1,0 +1,92 @@
+// VARIABLES ---------------------------------------------------------
+ $blue: #AED8E5;
+ $white: #F8F9FA;
+ $orange: #FDD9AE;
+ $pink: #DA9685;
+ $brown: #E2D0BE;
+ $title: 'Comfortaa', cursive;
+ // -----------------------------------------------------------------------
+
+ body {
+   background-color: $blue;
+ }
+
+ #container {
+   max-width: 80%;
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }
+
+// NAVIGATION ---------------------------------------------------------
+
+header {
+
+.col-md-6 {
+  background-color: $white;
+  margin-top: 50px;
+  text-align: center;
+
+  h1 {
+    font-family: $title;
+    font-weight: 700;
+  }
+}
+
+.navbar-brand {
+  margin-right: 29px;
+}
+
+img {
+  padding-bottom: 15px;
+}
+
+i {
+  padding: 0px 8px 0px 0px;
+}
+
+input {
+  outline-color: $blue;
+  font-size: 15px;
+}
+
+::placeholder {
+  opacity: 0.3;
+}
+
+li {
+  padding-left: 12px;
+}
+}
+
+// MENU ---------------------------------------------------------
+
+.list {
+
+  h4 {
+    margin-top: 100px;
+    font-family: $title;
+    font-weight: 700;
+    color: $pink;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style: none;
+    li {
+      line-height: 2.5;
+    }
+  }
+
+  .col-2 {
+    text-align: right;
+  }
+
+
+  .list-group-item {
+    background-color: $blue;
+    padding-bottom: 2px;
+    border: none;
+  }
+}

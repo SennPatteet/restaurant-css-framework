@@ -1,0 +1,88 @@
+
+// VARIABLES ---------------------------------------------------------
+ $blue: #AED8E5;
+ $white: #F8F9FA;
+ $orange: #FDD9AE;
+ $pink: #DA9685;
+ $brown: #E2D0BE;
+ $title: 'Comfortaa', cursive;
+ // -----------------------------------------------------------------------
+
+ body {
+   background-color: $blue;
+ }
+
+ #container {
+   max-width: 75%;
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }
+
+.form-area {
+  background-color: $white;
+	padding: 10px 40px 60px;
+  max-width: 100%;
+  margin: auto;
+
+  i {
+    padding: 4px;
+    padding-left: 0px;
+  }
+
+  h3 {
+    font-family: $title;
+  }
+
+  button {
+    background-color: $white;
+    border: solid 2px $pink;
+    color: $pink;
+
+    &:hover {
+      color: $white;
+      background-color: $pink;
+      transition-timing-function: ease-in;
+      transition: 0.5s;
+      border: $white;
+    }
+  }
+	}
+
+  // NAVIGATION --------------------------------------------------------------
+
+  .col-md-6 {
+    background-color: $white;
+    margin-top: 50px;
+    text-align: center;
+
+    h1 {
+      font-family: $title;
+      font-weight: 700;
+    }
+  }
+
+  .navbar-brand {
+    margin-right: 29px;
+  }
+
+  img {
+    padding-bottom: 15px;
+  }
+
+  i {
+    padding: 0px 8px 0px 0px;
+  }
+
+  input {
+    outline-color: $blue;
+    font-size: 15px;
+  }
+
+  ::placeholder {
+    opacity: 0.3;
+  }
+
+  li {
+    padding-left: 12px;
+  }
