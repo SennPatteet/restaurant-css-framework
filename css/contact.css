@@ -30,7 +30,12 @@ body {
       -webkit-transition: 0.5s;
       -o-transition: 0.5s;
       transition: 0.5s;
-      border: #F8F9FA; }
+      border-color: #DA9685; }
+  .form-area .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #AED8E5; }
 
 .col-md-6 {
   background-color: #F8F9FA;

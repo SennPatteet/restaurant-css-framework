@@ -78,11 +78,3 @@ li {
       font-size: 1.02em; }
   .card-deck .card-text {
     font-size: 0.8em; }
-
-footer {
-  background-color: #F8F9FA;
-  padding: 20px 0px 20px 0px; }
-  footer ul {
-    list-style: none; }
-    footer ul i {
-      font-size: 1.5em; }
