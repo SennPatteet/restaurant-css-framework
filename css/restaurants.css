@@ -100,4 +100,6 @@ footer {
   h1 {
     text-align: center; }
   .divider {
-    visibility: hidden; } }
+    visibility: hidden; }
+  iframe {
+    width: 350px; } }
