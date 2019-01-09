@@ -5,6 +5,8 @@
  $pink: #DA9685;
  $brown: #E2D0BE;
  $title: 'Comfortaa', cursive;
+ $grey: #5D5D5D;
+ $fakeblack: #423531;
 
  // -----------------------------------------------------------------------
 
@@ -13,7 +15,7 @@ body {
 }
 
 #container {
-  max-width: 75%;
+  max-width: 80%;
   margin: auto;
   margin-top: 30px;
 }
@@ -58,7 +60,52 @@ li {
 // MAP ---------------------------------------------------------
 
 .mapke {
-  padding: 10px 10px 40px 10px;
+  padding: 10px 10px 40px 16px;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+hr {
+  border-top: solid 2.4px $white;
+}
+
+.hr1 {
+  border-top: solid 1px $white;
+}
+
+.divider {
+  padding-bottom: 70px;
+  margin-top: 70px;
+}
+
+.col-md-7 {
+  text-align: center;
+  font-family: $title;
+  color: $fakeblack;
+
+  span {
+    color: $white;
+  }
+
+  i {
+    font-size: 1.5em;
+    color: $white;
+    margin-top: 40px;
+  }
+
+  .iconmove {
+    margin-top: 35px;
+  }
+}
+
+
+h1 {
+  color: $fakeblack;
+  margin-top: 55px;
+  font-family: $title;
+  font-weight: 700;
 }
 
 

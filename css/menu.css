@@ -48,9 +48,11 @@ header li {
 .list {
   padding-top: 50px; }
   .list .list-group-item {
-    background-color: #F8F9FA; }
+    background-color: #AED8E5; }
+  .list li {
+    color: #423531; }
   .list h4 {
-    color: #DA9685;
+    color: #F8F9FA;
     font-family: "Comfortaa", cursive;
     font-weight: 700;
     text-align: center;

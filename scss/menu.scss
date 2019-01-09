@@ -5,6 +5,7 @@
  $pink: #DA9685;
  $brown: #E2D0BE;
  $title: 'Comfortaa', cursive;
+ $fakeblack: #423531;
  // -----------------------------------------------------------------------
 
  body {
@@ -70,11 +71,15 @@ li {
   padding-top: 50px;
 
   .list-group-item {
-    background-color: $white;
+    background-color: $blue;
+  }
+
+  li {
+    color: $fakeblack;
   }
 
   h4 {
-    color: $pink;
+    color: $white;
     font-family: $title;
     font-weight: 700;
     text-align: center;
@@ -82,6 +87,7 @@ li {
     padding-bottom: 20px;
   }
 }
+
 
 // FOOTER ---------------------------------------------------------
 
