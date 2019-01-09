@@ -1,0 +1,146 @@
+// VARIABLES ---------------------------------------------------------
+ $blue: #AED8E5;
+ $white: #F8F9FA;
+ $orange: #FDD9AE;
+ $pink: #DA9685;
+ $brown: #E2D0BE;
+ $title: 'Comfortaa', cursive;
+ $fakeblack: #423531;
+ // -----------------------------------------------------------------------
+
+ body {
+   background-color: $blue;
+   width: 100%;
+   overflow-x: hidden;
+ }
+
+
+
+ #container {
+   max-width: 56%;
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }
+
+// NAVIGATION ---------------------------------------------------------
+
+header {
+
+.col-md-6 {
+  background-color: $white;
+  margin-top: 50px;
+  text-align: center;
+
+  h1 {
+    font-family: $title;
+    font-weight: 700;
+  }
+}
+
+.navbar-brand {
+  margin-right: 29px;
+}
+
+img {
+  padding-bottom: 15px;
+}
+
+i {
+  padding: 0px 8px 0px 0px;
+}
+
+input {
+  outline-color: $blue;
+  font-size: 15px;
+}
+
+::placeholder {
+  opacity: 0.3;
+}
+
+li {
+  padding-left: 12px;
+}
+}
+
+// PHOTOS ---------------------------------------------------------
+
+.pagination {
+
+  a {
+  text-decoration: none;
+  color: $pink;
+  padding: 8px 16px;
+  border:none;
+  background-color: $blue;
+  border-radius: 5px;
+  &:hover {
+    color: $blue;
+    background-color: $pink;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+  }
+  }
+  }
+
+.A {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.photos {
+  margin-top: 40px;
+}
+
+.row {
+  img {
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 1%;
+    margin: auto;
+    display: block;
+    &:hover {
+      opacity: 1;
+      transition-timing-function: ease-in;
+      transition: 1s;
+    }
+  }
+}
+
+
+// FOOTER ---------------------------------------------------------
+
+footer {
+  background-color: $white;
+  margin-top: 200px;
+  a {
+    color: $pink;
+    &:hover {
+      color: $blue;
+      transition-timing-function: ease-in;
+      transition: 0.5s;
+      text-decoration: none;
+    }
+  }
+  .col-md-12 {
+    text-align: center;
+  }
+
+  .col-12 {
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    font-family: $title;
+  }
+}
+
+
+// MEDIA ---------------------------------------------------------
+
+@media only screen and (max-width: 768px) {
+  .row {
+    img {
+      padding-top: 25px;
+    }
+  }
+}
