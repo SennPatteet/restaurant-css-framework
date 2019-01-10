@@ -1,10 +1,17 @@
 body {
-  background-color: #AED8E5; }
+  background-color: #AED8E5;
+  color: #454C55; }
 
 #container {
   max-width: 75%;
   margin: auto;
   margin-top: 30px; }
+
+span {
+  color: #454C55; }
+
+.nav-link:hover {
+  color: #454C55; }
 
 .col-md-6 {
   background-color: #F8F9FA;

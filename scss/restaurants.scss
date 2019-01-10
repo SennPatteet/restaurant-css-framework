@@ -6,12 +6,13 @@
  $brown: #E2D0BE;
  $title: 'Comfortaa', cursive;
  $grey: #5D5D5D;
- $fakeblack: #423531;
+ $fakeblack: #454C55;
 
  // -----------------------------------------------------------------------
 
 body {
   background-color: $blue;
+  color: $fakeblack;
 }
 
 #container {
@@ -146,6 +147,6 @@ footer {
 
   iframe {
     width: 290px;
-    
+
   }
 }

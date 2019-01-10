@@ -5,12 +5,13 @@
  $pink: #DA9685;
  $brown: #E2D0BE;
  $title: 'Comfortaa', cursive;
- $fakeblack: #423531;
+ $fakeblack: #454C55;
  // -----------------------------------------------------------------------
 
  body {
    background-color: $blue;
    width: 100%;
+   color: $fakeblack;
    overflow-x: hidden;
  }
 

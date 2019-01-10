@@ -4,12 +4,14 @@
  $orange: #FDD9AE;
  $pink: #DA9685;
  $brown: #E2D0BE;
+ $fakeblack: #454C55;
  $title: 'Comfortaa', cursive;
 
  // -----------------------------------------------------------------------
 
 body {
   background-color: $blue;
+  color: $fakeblack;
 }
 
 #container {
@@ -19,6 +21,14 @@ body {
 }
 
 // NAVIGATION --------------------------------------------------------------
+
+span {
+  color: $fakeblack;
+}
+
+.nav-link:hover {
+  color: $fakeblack;
+}
 
 .col-md-6 {
   background-color: $white;

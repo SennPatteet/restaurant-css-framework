@@ -1,5 +1,6 @@
 body {
-  background-color: #AED8E5; }
+  background-color: #AED8E5;
+  color: #454C55; }
 
 #container {
   max-width: 75%;
@@ -95,7 +96,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
   #container {
-    max-width: 95%; }
+    max-width: 90%; }
   .btn {
     width: 100%;
     margin-top: 20px; } }

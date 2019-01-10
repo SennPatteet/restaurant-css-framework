@@ -1,6 +1,7 @@
 body {
   background-color: #AED8E5;
   width: 100%;
+  color: #454C55;
   overflow-x: hidden; }
 
 #container {
@@ -50,7 +51,7 @@ header li {
   .list .list-group-item {
     background-color: #AED8E5; }
   .list li {
-    color: #423531; }
+    color: #454C55; }
   .list h4 {
     color: #F8F9FA;
     font-family: "Comfortaa", cursive;

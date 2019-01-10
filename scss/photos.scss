@@ -5,13 +5,14 @@
  $pink: #DA9685;
  $brown: #E2D0BE;
  $title: 'Comfortaa', cursive;
- $fakeblack: #423531;
+ $fakeblack: #454C55;
  // -----------------------------------------------------------------------
 
  body {
    background-color: $blue;
    width: 100%;
    overflow-x: hidden;
+   color: $fakeblack;
  }
 
  #container {
@@ -73,12 +74,17 @@ li {
   border:none;
   background-color: $blue;
   border-radius: 5px;
+  margin: 2px;
   &:hover {
     color: $blue;
     background-color: $pink;
     transition-timing-function: ease-in;
     transition: 0.5s;
   }
+  }
+  .active {
+    background-color: $pink;
+    color: $white;
   }
   }
 
@@ -94,14 +100,14 @@ li {
 .row {
   img {
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.9;
     border-radius: 1%;
     margin: auto;
     display: block;
     &:hover {
       opacity: 1;
       transition-timing-function: ease-in;
-      transition: 1s;
+      transition: 0.5s;
     }
   }
 }

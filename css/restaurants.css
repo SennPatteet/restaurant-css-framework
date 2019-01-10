@@ -1,5 +1,6 @@
 body {
-  background-color: #AED8E5; }
+  background-color: #AED8E5;
+  color: #454C55; }
 
 #container {
   max-width: 80%;
@@ -60,7 +61,7 @@ hr {
 .col-md-7 {
   text-align: center;
   font-family: "Comfortaa", cursive;
-  color: #423531; }
+  color: #454C55; }
   .col-md-7 span {
     color: #F8F9FA; }
   .col-md-7 i {
@@ -71,7 +72,7 @@ hr {
     margin-top: 35px; }
 
 h1 {
-  color: #423531;
+  color: #454C55;
   margin-top: 55px;
   font-family: "Comfortaa", cursive;
   font-weight: 700; }
