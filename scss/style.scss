@@ -64,9 +64,11 @@ li {
 
   h1 {
     font-family: $title;
+    font-size: 2em;
   }
 
   .lead {
+    font-size: 1em;
     a {
       background-color: $white;
       border: solid 2px $pink;
@@ -126,5 +128,19 @@ footer {
     margin-bottom: 40px;
     font-size: 1.2em;
     font-family: $title;
+  }
+}
+
+// MEDIA ---------------------------------------------------------
+
+@media only screen and (max-width: 768px) {
+  .jumbotron {
+    background-color: $blue;
+    .lead {
+      a {
+        background-color: $pink;
+        color: $white;
+      }
+    }
   }
 }

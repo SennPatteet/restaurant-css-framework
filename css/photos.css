@@ -86,7 +86,7 @@ header li {
 
 footer {
   background-color: #F8F9FA;
-  margin-top: 200px; }
+  margin-top: 50px; }
   footer a {
     color: #DA9685; }
     footer a:hover {
@@ -107,4 +107,5 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .row img {
-    padding-top: 25px; } }
+    padding-top: 20px;
+    padding-bottom: 30px; } }

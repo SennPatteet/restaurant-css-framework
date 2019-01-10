@@ -45,20 +45,23 @@ li {
   background-color: #F8F9FA;
   padding: 20px; }
   .jumbotron h1 {
-    font-family: "Comfortaa", cursive; }
-  .jumbotron .lead a {
-    background-color: #F8F9FA;
-    border: solid 2px #DA9685;
-    color: #DA9685; }
-    .jumbotron .lead a:hover {
-      color: #F8F9FA;
-      background-color: #DA9685;
-      -webkit-transition-timing-function: ease-in;
-      -o-transition-timing-function: ease-in;
-      transition-timing-function: ease-in;
-      -webkit-transition: 0.5s;
-      -o-transition: 0.5s;
-      transition: 0.5s; }
+    font-family: "Comfortaa", cursive;
+    font-size: 2em; }
+  .jumbotron .lead {
+    font-size: 1em; }
+    .jumbotron .lead a {
+      background-color: #F8F9FA;
+      border: solid 2px #DA9685;
+      color: #DA9685; }
+      .jumbotron .lead a:hover {
+        color: #F8F9FA;
+        background-color: #DA9685;
+        -webkit-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s; }
 
 .card-deck {
   margin-bottom: 20px; }
@@ -98,3 +101,10 @@ footer {
     margin-bottom: 40px;
     font-size: 1.2em;
     font-family: "Comfortaa", cursive; }
+
+@media only screen and (max-width: 768px) {
+  .jumbotron {
+    background-color: #AED8E5; }
+    .jumbotron .lead a {
+      background-color: #DA9685;
+      color: #F8F9FA; } }

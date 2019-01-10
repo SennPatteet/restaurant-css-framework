@@ -117,3 +117,16 @@
       font-family: $title;
     }
   }
+
+// MEDIA ---------------------------------------------------------
+
+@media only screen and (max-width: 768px) {
+  #container {
+    max-width: 95%;
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
